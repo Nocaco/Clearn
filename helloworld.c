@@ -1,17 +1,19 @@
 #include <stdio.h>
 
-int main(){
-    
-    const double pi = 3.1415;
-    double r;
-    double y;//圆的周长
-    double x;//
+int main() {
+    const double PI = 3.14159;
+    double r; // 圆的半径
+    double circumference; // 圆的周长
+    double area; // 圆的面积
 
-    printf("how old are you?\n");
-    scanf("%d",&x);
+    printf("\n请输入半径:");
+    scanf("%lf", &r);
 
-    printf("you are %d years old",x);
+    circumference = 2 * PI * r;
+    area = PI * r * r;
+
+    printf("圆的周长是%f\n", circumference);
+    printf("圆的面积是%f\n", area);
 
     return 0;
-
 }
