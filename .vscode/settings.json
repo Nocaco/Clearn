@@ -4,5 +4,6 @@
     },
     "files.candidateGuessEncodings": [
         "gb2312"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
